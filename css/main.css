@@ -11,3 +11,7 @@
     
 }
 
+.ser-block {
+    max-height: 500px;
+    min-height: 500px;
+}

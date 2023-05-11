@@ -23,3 +23,33 @@
 .nav-img__mobile {
     max-width: 200px;
 }
+
+.mobile_bgc>img {
+    max-width: 100%;
+    display: none;
+}
+
+.mobile_bgc>img:first-child{
+    position: relative;
+}
+
+.mobile_bgc>img:last-child {
+    position: absolute;
+    bottom: 80vh;
+    max-width: 50%;
+    background-color: #ffffff94;
+    left: 25%;
+} 
+
+@media (max-width: 768px) {
+    #myVideo {
+        display: none;
+    }
+    .mobile_bgc>img {
+        display: block;
+    }
+    .about {
+        background-color: rgba(255, 255, 255, 0.575);
+        background-image: none;
+    }
+}

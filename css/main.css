@@ -19,3 +19,7 @@
 .nav-img {
     max-width: 400px;
 }
+
+.nav-img__mobile {
+    max-width: 200px;
+}

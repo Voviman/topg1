@@ -78,9 +78,14 @@
 }
 
 .text-box_content {
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .text-box_img {
-    max-width: 400px;
+    max-width: 500px;
+}
+
+.testimonial-item {
+    max-height: 600px;
+    min-height: 600px;
 }

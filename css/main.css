@@ -29,17 +29,11 @@
     display: none;
 }
 
-.mobile_bgc>img:first-child{
+.mobile_bgc>img{
     position: relative;
 }
 
-.mobile_bgc>img:last-child {
-    position: absolute;
-    bottom: 80vh;
-    max-width: 50%;
-    background-color: #ffffff94;
-    left: 25%;
-} 
+
 
 @media (max-width: 768px) {
     #myVideo {
@@ -88,4 +82,18 @@
 .testimonial-item {
     max-height: 600px;
     min-height: 600px;
+}
+
+
+@media (max-width: 768px) {
+    .form {
+        position: relative;
+        max-width: 500px;
+        min-width: 500px;
+        background-color: none;
+    }
+
+    .text-box {
+        display: block;
+    }
 }

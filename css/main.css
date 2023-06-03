@@ -91,6 +91,10 @@
         max-width: 500px;
         min-width: 500px;
         background: none;
+        
+    }
+    .form>h2 {
+        color: black;
     }
 
     .text-box {
